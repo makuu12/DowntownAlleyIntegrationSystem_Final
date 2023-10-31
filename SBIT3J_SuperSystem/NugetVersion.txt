@@ -1,0 +1,2 @@
+Bootstrap Grid v5.3.2
+EntityFramework v6.4.4
