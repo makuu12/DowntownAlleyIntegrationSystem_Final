@@ -16,7 +16,7 @@ namespace SBIT3J_SuperSystem
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "InventoryManagement", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
