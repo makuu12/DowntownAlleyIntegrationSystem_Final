@@ -211,6 +211,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asset_group1\css\LayoutStyle.css" />
+    <Content Include="Asset_group1\css\MainDashboard.css" />
+    <Content Include="Asset_group1\css\SalesRevenue.css" />
+    <Content Include="Asset_group1\image\expenses.png" />
+    <Content Include="Asset_group1\image\financial-profit.png" />
+    <Content Include="Asset_group1\image\loss.png" />
+    <Content Include="Asset_group1\image\sales.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -263,6 +270,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Asset_group1\fonts\Azonix-1VB0.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -291,10 +299,13 @@
     <Content Include="Views\InventoryManagement\Restock.cshtml" />
     <Content Include="Views\InventoryManagement\Returns.cshtml" />
     <Content Include="Views\InventoryManagement\InventoryArchives.cshtml" />
+    <Content Include="Views\AdminMonitoring\Index.cshtml" />
+    <Content Include="Views\Shared\_ManagementInfoLayout1cshtml.cshtml" />
+    <Content Include="Views\AdminMonitoring\SalesRevenue.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\AdminMonitoring\" />
+    <Folder Include="Asset_group1\js\" />
     <Folder Include="Views\Attendance\" />
     <Folder Include="Views\EmpManagement\" />
     <Folder Include="Views\Login\" />
