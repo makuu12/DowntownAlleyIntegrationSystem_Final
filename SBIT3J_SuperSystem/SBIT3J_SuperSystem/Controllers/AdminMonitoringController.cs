@@ -13,5 +13,10 @@ namespace SBIT3J_SuperSystem.Controllers
         {
             return View();
         }
+
+        public ActionResult SalesRevenue()
+        {
+            return View();
+        }
     }
 }
