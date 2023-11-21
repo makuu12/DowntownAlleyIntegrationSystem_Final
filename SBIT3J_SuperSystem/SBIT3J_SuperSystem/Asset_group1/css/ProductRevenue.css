@@ -20,6 +20,7 @@ span {
     align-items: center;
     width: 80vw;
     height: 100px;
+    
 }
 
 .col-card {
@@ -157,6 +158,12 @@ span {
     background-color: transparent;
 }
 
+/*
+
+PRODUCT REVENUE PAGE LAYOUT
+
+*/
+
 #chart-part {
     position: relative;
     width: 00px;
@@ -167,21 +174,20 @@ span {
 }
 
 table {
+    border-collapse: collapse;
     width: 220px;
     height: 250px;
+    border-collapse: collapse;
+    margin: 5px auto;
 }
 
 .table-list {
     /* border: 1px rgba(87, 27, 39, 1) solid; */
-    background-color: transparent; 
     border-radius: 20px;
+    background-color: transparent;
     margin: 20px;
-    padding: 14px; 
-}
-
-.table-header tr {
-    border-bottom: 1px rgba(87, 27, 39, 1) solid;
-    padding: 10px;
+    padding: auto; 
+    
 }
 
 .table-header {
@@ -190,4 +196,14 @@ table {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    
+}
+
+.table-list th {
+    text-align: center;
+}
+
+.table-list td {
+    text-align: center;
+    border-bottom: 1px solid rgba(87, 27, 39, 0.7);
 }

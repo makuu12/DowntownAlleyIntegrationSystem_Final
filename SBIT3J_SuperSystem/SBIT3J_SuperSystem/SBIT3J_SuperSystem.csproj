@@ -211,8 +211,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asset_group1\css\CashierActivities.css" />
+    <Content Include="Asset_group1\css\CompanyProfit.css" />
+    <Content Include="Asset_group1\css\Inventory.css" />
     <Content Include="Asset_group1\css\LayoutStyle.css" />
+    <Content Include="Asset_group1\css\LossesDashboard.css" />
     <Content Include="Asset_group1\css\MainDashboard.css" />
+    <Content Include="Asset_group1\css\OverallActivities.css" />
+    <Content Include="Asset_group1\css\ProductRevenue.css" />
     <Content Include="Asset_group1\css\SalesRevenue.css" />
     <Content Include="Asset_group1\image\expenses.png" />
     <Content Include="Asset_group1\image\financial-profit.png" />
@@ -302,6 +308,12 @@
     <Content Include="Views\AdminMonitoring\Index.cshtml" />
     <Content Include="Views\Shared\_ManagementInfoLayout1cshtml.cshtml" />
     <Content Include="Views\AdminMonitoring\SalesRevenue.cshtml" />
+    <Content Include="Views\AdminMonitoring\CompanyProfit.cshtml" />
+    <Content Include="Views\AdminMonitoring\LossesDashboard.cshtml" />
+    <Content Include="Views\AdminMonitoring\CashierActivities.cshtml" />
+    <Content Include="Views\AdminMonitoring\OverallActivities.cshtml" />
+    <Content Include="Views\AdminMonitoring\Inventory.cshtml" />
+    <Content Include="Views\AdminMonitoring\ProductRevenue.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
