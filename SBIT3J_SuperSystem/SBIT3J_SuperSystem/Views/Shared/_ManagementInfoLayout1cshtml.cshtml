@@ -31,18 +31,23 @@
                 </div>
                 <div id="navlist">
                     <div class="item item-nav">
-                            <a href="@Url.Action("Index", "InventoryManagement")" target="_blank"><span> Sales Dashboard</span><i class="fa-solid fa-chevron-right dropdown"></i></a>
-                            <div class="subitem">
-                                <a href="https://www.facebook.com" target="_blank"><span>Related 1</span></a>
-                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank"><span>Related 2</span></a>
-                                <a href="#" target="_blank"><span>Related 3</span></a>
-                            </div>
+                        <a href="@Url.Action("Index", "AdminMonitoring")"><span> Sales Dashboard</span><i class="fa-solid fa-chevron-right dropdown"></i></a>
+                        <div class="subitem">
+                            <a href="@Url.Action("SalesRevenue", "AdminMonitoring")"><span>Sales Revenue</span></a>
+                            <a href="@Url.Action("ProductRevenue", "AdminMonitoring")"><span>Product Revenue</span></a>
+                        </div>
                     </div>
-                    <div class="item"><a href="@Url.Action("Index", "InventoryManagement")" target="_blank"><span>Profit</span><i class="fa-solid fa-chevron-right"></i></a></div>
-                    <div class="item"><a href=""><span>Losses</span><i class="fa-solid fa-chevron-right"></i></a></div>
-                    <div class="item"><a href=""><span>Audit Trail</span><i class="fa-solid fa-chevron-right"></i></a></div>
-                    <div class="item"><a href=""><span>Accounts</span><i class="fa-solid fa-chevron-right"></i></a></div>
-                    <div class="item"><a href=""><span>Inventory</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                    <div class="item"><a href="@Url.Action("CompanyProfit", "AdminMonitoring")"><span>Profit</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                    <div class="item"><a href="@Url.Action("LossesDashboard", "AdminMonitoring")"><span>Losses</span><i class="fa-solid fa-chevron-right"></i></a></div>
+                    <div class="item item-nav">
+                        <a href="#"><span> Audit Trail</span><i class="fa-solid fa-chevron-right dropdown"></i></a>
+                        <div class="subitem">
+                            <a href="@Url.Action("CashierActivities", "AdminMonitoring")"><span>Cashier Logs</span></a>
+                            <a href="@Url.Action("OverallActivities", "AdminMonitoring")"><span>Overall Activities</span></a>
+
+                        </div>
+                    </div>
+                    <div class="item"><a href="@Url.Action("Inventory", "AdminMonitoring")"><span>Inventory</span><i class="fa-solid fa-chevron-right"></i></a></div>
 
                 </div>
 
